@@ -1,0 +1,23 @@
+---
+layout: default
+title: 分类
+motto: 物以类聚。
+---
+
+        <div class="post">
+            <div class="tag">
+{% for tag in site.tags %}
+                <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+{% endfor %}
+            </div>
+            <div>
+{% for tag in site.tags %}
+                <h2 id="{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</h2>
+                <ul>
+    {% for post in tag[1] %}
+                    <li>{{ post.date | date:"%Y-%m-%d" }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+                </ul>
+{% endfor %}
+            </div>
+        </div>

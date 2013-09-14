@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+        <div class="post">
+            <div class="post-title">{{ page.title }}</div>
+            <div class="post-time">{{ page.date | date_to_string }} | 分类：<a href="/tags.html#{{ page.tags }}">{{ page.tags }}</a></div>
+            <div class="post-content">
+{{ content }}
+            </div>
+            <div class="post-link">
+{% if page.previous %}
+                <a class="prev" href="{{ page.previous.url }}">&laquo;&nbsp;{{ page.previous.title | truncatewords:5 }}</a>
+{% endif %}
+{% if page.next %}
+                <a class="next" href="{{ page.next.url }}">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
+{% endif %}
+            </div>
+
+            <div id="disqus_thread"></div>
+            <div id="disqus_loader">
+                <span class="post-comment" onclick="load_disqus()">评论</span>
+                <script type="text/javascript">
+                function load_disqus()
+                {
+                    var disqus_shortname = "{{ site.disqus }}";
+                    var disqus_identifier = "{{ page.date }}";
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    var ldr = document.getElementById('disqus_loader');
+                    ldr.parentNode.removeChild(ldr);
+                }
+                </script>
+            </div>
+        </div>

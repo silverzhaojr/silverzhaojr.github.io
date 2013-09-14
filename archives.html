@@ -1,0 +1,26 @@
+---
+layout: default
+title: 归档
+motto: 皓首穷经。
+---
+
+        <div class="post">
+            <div>
+{% for post in site.posts %}
+    {% unless post.next %}
+                <h2>{{ post.date | date: '%Y' }}</h2>
+                <ul>
+    {% else %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != nyear %}
+                </ul>
+                <h2>{{ post.date | date: '%Y' }}</h2>
+                <ul>
+        {% endif %}
+    {% endunless %}
+                    <li>{{ post.date | date: '%m-%d' }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{% endfor %}
+                </ul>
+            </div>
+        </div>

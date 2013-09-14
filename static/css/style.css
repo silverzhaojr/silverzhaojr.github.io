@@ -1,0 +1,224 @@
+/* layout */
+#head {
+    width: 18em;
+    height: 98%;
+    position: fixed;
+    background: url("/static/images/bamboo01.jpg") bottom right no-repeat,
+                url("/static/images/bamboo02.jpg") top left no-repeat;
+}
+#logo {
+    margin: 0.8em 1em 1.8em 1em;
+    width: 16em;
+    height: 16em;
+    border: 1px solid #d8d8d8;
+    border-radius: 8em;
+}
+#logo .blogname {
+    font-family: "FangSong", sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+    text-shadow: -2px 3px 4px #a0a0a0;
+    margin: 0;
+    padding-top: 2em;
+}
+#logo .blogdesc {
+    color: #5d5d5d;
+    font-family: "KaiTi", sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    border-bottom: 1px dotted #d8d8d8;
+    margin-top: 7em;
+}
+#logo a {
+    color: #555;
+    text-decoration: none;
+}
+#nav {
+    margin-top: 4em;
+}
+#nav li {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    list-style: none;
+    margin: 0.5em 1.5em;
+}
+#nav a {
+    color: #a8a8a8;
+    text-decoration: none;
+}
+#nav a:hover {
+    color: #555;
+    text-shadow: -2px 3px 4px #a0a0a0;
+}
+#contain {
+    position: relative;
+    border-left: 1px solid #d8d8d8;
+    margin-left: 18em;
+}
+#begin {
+    font-family: "FangSong", serif;
+    font-size: 1.2em;
+    font-style: italic;
+    text-indent: 2em;
+    text-shadow: -2px 3px 4px #d8d8d8;
+    border-bottom: 1px solid #a0a0a0;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+#foot {
+    color: #333;
+    font-family: "Ubuntu", "Candara", sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 1em;
+}
+#foot p {
+    margin: 0;
+}
+#foot a {
+    color: #5d5d5d;
+    text-decoration: none;
+}
+.pagination {
+    margin: 2em 0 0 2em;
+}
+.pagination li {
+    display: inline;
+}
+.pagination li a {
+    color: #5d5d5d;
+    text-decoration: none;
+    border-bottom: 1px dotted #666;
+}
+.tag {
+    margin: 1em 0.5em;
+}
+.tag a {
+    padding: 0.5em;
+    background: #e8e8e8;
+    border-radius: 1em;
+    text-decoration: none;
+}
+.tag a:hover {
+    color: darkgray;
+}
+/* go to top */
+#toTop {
+    position: fixed;
+    cursor: pointer;
+    color: #5d5d5d;
+    font-size: 3em;
+    text-decoration: overline;
+    right: 30px;
+    bottom: 30px;
+    display: none;
+}
+/* post style */
+ .post {
+    color: #333;
+    font-family: "Lucida Sans Unicode", "Arial", sans-serif;
+    border: 1px solid #d8d8d8;
+    border-radius: 2em;
+    box-shadow: -3px 3px 20px #d8d8d8;
+    margin: 2em 3em 0 1em;
+    padding: 0 1em 2em 1em;
+}
+.post-title {
+    font-size: 1.5em;
+    background: #f8f8f8;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 2em;
+    margin: 0 -0.6em 0 -0.6em;
+    padding: 0.5em 0 0.5em 1em;
+}
+.post-title a {
+    color: #5d5d5d;
+    text-decoration: none;
+}
+.post-title a:hover {
+    border-bottom: 1px dotted #5d5d5d;
+}
+.post-time {
+    color: #d8d8d8;
+    font-family: "Georgia", "Times New Roman", serif;
+    font-style: italic;
+    margin-top: 1em;
+}
+.post-link {
+    height: 1em;
+    border-top: 1px dotted #d8d8d8;
+    margin: 2em 0;
+    padding: 0.5em;
+}
+.post-link a {
+    color: #5d5d5d;
+    text-decoration: none;
+    border-bottom: 1px dashed #666;
+}
+.post-link .prev {
+    float: left;
+}
+.post-link .next {
+    float: right;
+}
+.post-comment {
+    cursor: pointer;
+    background: #f8f8f8;
+    border: 1px solid #d8d8d8;
+    border-radius: 0.5em;
+    padding: 0.2em;
+}
+.post a {
+    color: #5d5d5d;
+}
+.post-content h1, h2, h3 {
+    font-weight: normal;
+}
+.post-content p {
+    text-indent: 2em;
+}
+.post-content blockquote {
+    border: 2px dashed #d8d8d8;
+    border-radius: 0.5em;
+    margin: 1em 2em;
+    padding: 0.5em 1em;
+}
+.post-content blockquote p {
+    text-indent: 0;
+}
+.post-content pre {
+    font-size: 1em;
+    background: #f8f8f8;
+    border: 1px solid #d8d8d8;
+    border-radius: 0.5em;
+    margin: 1em 2em;
+    padding: 0.5em 1em;
+}
+.post-content code {
+    font-family: "Monaco", "Lucida Console", "Consolas", monospace;
+    background: #f8f8f8;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px 3px;
+    box-shadow: 1px 1px 0 #999;
+    margin: 0 3px;
+    padding: 0.2em;
+}
+.post-content pre code {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+.post-content table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.post-content table th, .post table td {
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+.post-content table th {
+    background: #f8f8f8;
+}
