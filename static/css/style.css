@@ -4,8 +4,8 @@
     width: 18em;
     height: 98%;
     position: fixed;
-    background: url("/static/images/bamboo01.jpg") bottom right no-repeat,
-                url("/static/images/bamboo02.jpg") top left no-repeat;
+    background: url("/static/images/bamboo01.png") bottom right no-repeat,
+                url("/static/images/bamboo02.png") top left no-repeat;
 }
 #logo {
     margin: 0.8em 1em 1.8em 1em;
