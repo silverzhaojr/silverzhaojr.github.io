@@ -29,10 +29,6 @@
     border-bottom: 1px dotted #d8d8d8;
     margin-top: 7em;
 }
-#logo a {
-    color: #555;
-    text-decoration: none;
-}
 #nav {
     margin-top: 4em;
 }
@@ -41,14 +37,6 @@
     font-size: 1.2em;
     list-style: none;
     margin: 0.5em 1.5em;
-}
-#nav a {
-    color: #a8a8a8;
-    text-decoration: none;
-}
-#nav a:hover {
-    color: #555;
-    text-shadow: -2px 3px 4px #a0a0a0;
 }
 #contain {
     position: relative;
@@ -67,24 +55,16 @@
 #logo .blogname {
     font-family: "FangSong", sans-serif;
     font-size: 3em;
-    text-align: center;
     text-shadow: -2px 3px 4px #a0a0a0;
 }
 #logo .blogdesc {
     color: #5d5d5d;
     font-family: "KaiTi", sans-serif;
-    text-align: right;
-    margin-top: 1em;
-}
-#logo a {
-    color: #555;
-    text-decoration: none;
-}
-#nav {
-    text-align: center;
+    margin: 0.5em 0 0.5em 3em;
 }
 #nav ul {
-	padding: 0;
+	text-align: right;
+	margin-right: 1em;
 }
 #nav li {
 	display: inline;
@@ -94,6 +74,20 @@
     border-left: 3px solid #d8d8d8;
     border-radius: 1em;
 }
+}
+
+#logo a {
+    color: #555;
+    text-decoration: none;
+}
+#logo a:hover {
+    color: #888;
+}
+#logo .rss {
+	height: 1em;
+	width: 1em;
+	border: none;
+}
 #nav a {
     color: #a8a8a8;
     text-decoration: none;
@@ -102,13 +96,8 @@
     color: #555;
     text-shadow: -2px 3px 4px #a0a0a0;
 }
-#contain {
-
-}
-}
-
 #begin {
-    font-family: "FangSong", serif;
+    font-family: "FangSong", "KaiTi", serif;
     font-size: 1.2em;
     font-style: italic;
     text-indent: 2em;
