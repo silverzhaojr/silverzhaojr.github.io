@@ -8,10 +8,10 @@
     <meta name="viewport" content="width=device-width" />
 
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-    <link rel="alternate" href="/{{ site.feed }}" title="{{ site.title }}" type="application/rss+xml" />
-    <link rel="stylesheet" href="/{{ site.page_style }}" type="text/css" />
-    <link rel="stylesheet" href="/{{ site.syntax_style }}" type="text/css" />
-    <link rel="shortcut icon" href="/{{ site.favicon }}" type="image/x-icon" />
+    <link rel="alternate" href="/rss.xml" title="{{ site.title }}" type="application/rss+xml" />
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/static/css/syntax.css" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
@@ -38,7 +38,7 @@
             <p>Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://github.com">GitHub</a>.</p>
         </div>
     </div>
-    <div id="toTop">⇪</div>
+    <div id="toTop" style="display:none;">⇪</div>
 </div>
 
 <script src="/static/js/toTop.js" type="text/javascript"></script>

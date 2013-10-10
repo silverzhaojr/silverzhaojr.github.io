@@ -2,51 +2,39 @@
  * 返回顶部代码，来自于 http://tjuking.iteye.com/blog/1743229
  */
 
-(function() {
-    var scrollEle = clientEle = document.documentElement,
-        toTopBtn = document.getElementById("toTop"),
-        compatMode = document.compatMode,
-        isChrome = window.navigator.userAgent.indexOf("Chrome") === -1 ? false : true;
-    //不同渲染模式以及Chrome的预处理
-    if (compatMode === "BackCompat" || isChrome) {
-        scrollEle = document.body;
-    }
-    if (compatMode === "BackCompat") {
-        clientEle = document.body;
-    }
-    //返回顶部按钮的点击响应（注册函数），时间间隔和高度缩减率可以调节
+(function(win, doc) {
+    //变量
+    var compatMode = doc.compatMode,
+        isChrome = win.navigator.userAgent.indexOf("Chrome") === -1 ? false : true,
+        scrollEle = compatMode === "BackCompat" || isChrome ? doc.body : doc.documentElement,
+        clientEle = compatMode === "BackCompat" ? doc.body : doc.documentElement,
+        toTopBtn = doc.getElementById("toTop"),
+        rate = 0.8,
+        timeGap = 10;
+    //返回顶部图标的点击响应
     toTopBtn.onclick = function() {
-        var moveInterval = setInterval(moveScroll, 10);
+        var moveInterval = setInterval(moveScroll, timeGap);
+
         function moveScroll() {
-            setScrollTop(getScrollTop() / 1.2);
-            if (getScrollTop() === 0) {
+            var scrollTop = scrollEle.scrollTop;
+            if (scrollTop === 0) {
                 clearInterval(moveInterval);
+                return;
             }
+            scrollEle.scrollTop = scrollTop * rate;
         }
-    }
-    //滚动时判断是否显示返回顶部按钮（注册函数）
-    window.onscroll = function() {
+    };
+    //滚动时判断是否显示返回顶部图标
+    win.onscroll = function() {
         var display = toTopBtn.style.display;
-        if (getScrollTop() > getClientHeight() / 5) {
-            if (display === "none" || display === "") {
+        if (scrollEle.scrollTop > clientEle.clientHeight / 5) {
+            if (display !== "block") {
                 toTopBtn.style.display = "block";
             }
         } else {
-            if (display === "block" || display === "") {
+            if (display !== "none") {
                 toTopBtn.style.display = "none";
             }
         }
-    }
-    //获取和设置scrollTop
-    function getScrollTop() {
-        return scrollEle.scrollTop;
-    }
-
-    function setScrollTop(value) {
-        scrollEle.scrollTop = value;
-    }
-    //获取当前网页的展示高度（第一屏高度），此处Chrome正常
-    function getClientHeight() {
-        return clientEle.clientHeight;
-    }
-})();
+    };
+})(window, document);
