@@ -6,9 +6,11 @@ motto: 物以类聚。
 
         <div class="post">
             <div class="tag">
+                <ul>
 {% for tag in site.tags %}
-                <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+                    <li><a href="#{{ tag[0] }}">{{ tag[0] }}</a></li>
 {% endfor %}
+                </ul>
             </div>
             <div>
 {% for tag in site.tags %}
