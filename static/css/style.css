@@ -1,4 +1,4 @@
-/* layout */
+@charset "utf-8";
 @media screen and (min-width:961px) {
 #head {
     width: 18em;
@@ -24,12 +24,17 @@
     margin-top: 3em;
 }
 #nav li {
+    font-size: 1.2em;
     list-style: none;
     margin: 0.5em 1.5em;
 }
-#contain {
+#main {
     border-left: 1px solid #d8d8d8;
     margin-left: 18em;
+}
+#begin {
+    font-size: 1.2em;
+    font-style: italic;
 }
 .post {
     margin: 2em 2em 0 1em;
@@ -62,12 +67,18 @@
     padding: 0;
 }
 #nav li {
+    font-size: 1em;
     display: inline;
     margin-right: 0.5em;
     padding: 0.2em;
     border-top: 3px solid #d8d8d8;
     border-left: 3px solid #d8d8d8;
     border-radius: 1em;
+}
+#begin {
+    font-size: 0.8em;
+    font-style: normal;
+    color: gray;
 }
 .post {
     margin: 1em 0.5em;
@@ -85,6 +96,7 @@
     margin: 0.5em 0 0.5em 1em;
 }
 #nav li {
+    font-size: 1em;
     margin-right: 0;
     border: none;
     border-top: 3px solid #d8d8d8;
@@ -92,6 +104,7 @@
 }
 }
 
+/* default.html */
 #logo a {
     color: #555;
     text-decoration: none;
@@ -108,14 +121,13 @@
     color: #5d5d5d;
     font-family: "KaiTi", sans-serif;
 }
-#nav li {
-    font-family: sans-serif;
-    font-size: 1.2em;
-}
 #logo .rss {
     height: 1em;
     width: 1em;
     border: none;
+}
+#nav li {
+    font-family: "YouYuan", sans-serif;
 }
 #nav a {
     color: #a8a8a8;
@@ -127,10 +139,8 @@
 }
 #begin {
     font-family: "FangSong", "KaiTi", serif;
-    font-size: 1.2em;
-    font-style: italic;
     text-indent: 2em;
-    text-shadow: -2px 3px 4px #d8d8d8;
+    text-shadow: -2px 3px 4px #a0a0a0;
     border-bottom: 1px solid #a0a0a0;
     padding: 0.5em 0 0.5em 0.5em;
 }
@@ -148,46 +158,8 @@
     color: #5d5d5d;
     text-decoration: none;
 }
-.pagination {
-    margin: 2em 0 0 2em;
-}
-.pagination li {
-    display: inline;
-}
-.pagination li a {
-    color: #5d5d5d;
-    text-decoration: none;
-    border-bottom: 1px dotted #666;
-}
-.tag {
-    margin: 1em 0.5em;
-}
-.tag ul {
-    padding: 0;
-}
-.tag li {
-    display: inline;
-}
-.tag a {
-    padding: 0.5em;
-    background: #e8e8e8;
-    border-radius: 1em;
-    text-decoration: none;
-}
-.tag a:hover {
-    color: darkgray;
-}
-/* go to top */
-#toTop {
-    position: fixed;
-    cursor: pointer;
-    color: #5d5d5d;
-    font-size: 3em;
-    text-decoration: overline;
-    right: 30px;
-    bottom: 30px;
-}
-/* post style */
+
+/* post.html */
 .post {
     color: #333;
     font-family: "Lucida Sans Unicode", "Arial", sans-serif;
@@ -197,19 +169,19 @@
 }
 .post a {
     color: #5d5d5d;
+    text-decoration: none;
 }
 .post a:hover {
     color: gray;
 }
 .post-title a {
-    color: #5d5d5d;
     text-decoration: none;
 }
 .post-title a:hover {
     border-bottom: 1px dotted #5d5d5d;
 }
 .post-time {
-    color: #d8d8d8;
+    color: #5d5d5d;
     font-family: "Georgia", "Times New Roman", serif;
     font-style: italic;
     margin-top: 1em;
@@ -221,8 +193,6 @@
     padding: 0.5em;
 }
 .post-link a {
-    color: #5d5d5d;
-    text-decoration: none;
     border-bottom: 1px dashed #666;
 }
 .post-link .prev {
@@ -238,6 +208,59 @@
     border-radius: 0.5em;
     padding: 0.2em;
 }
+
+/* index.html */
+.pagination {
+    margin: 2em 0 0 2em;
+}
+.pagination li {
+    display: inline;
+}
+.pagination li a {
+    color: #5d5d5d;
+    text-decoration: none;
+    border-bottom: 1px dotted #666;
+}
+
+/* tags.html */
+.tag-name {
+    margin: 1em 0.5em;
+}
+.tag-name ul {
+    padding: 0;
+}
+.tag-name li {
+	float: left;
+    display: inline;
+    background: #e8e8e8;
+    border-radius: 1em;
+    margin-right: 0.5em;
+    padding: 0.5em;
+}
+.tag-list {
+	clear: left;
+}
+.tag-list li {
+    list-style: square;
+}
+
+/* archives.html */
+.archive li {
+    list-style: circle;
+}
+
+/* toTop.js */
+#toTop {
+    position: fixed;
+    cursor: pointer;
+    color: #5d5d5d;
+    font-size: 3em;
+    text-decoration: overline;
+    right: 30px;
+    bottom: 30px;
+}
+
+/* post content style */
 .post-content h1, h2, h3 {
     font-weight: normal;
 }
@@ -245,7 +268,8 @@
     text-indent: 2em;
 }
 .post-content blockquote {
-    border: 2px dashed #d8d8d8;
+    background: #f8f8f8;
+    border: 1px dashed #d8d8d8;
     border-radius: 0.5em;
     margin: 1em 1em 1em 2em;
     padding: 0.5em 1em;

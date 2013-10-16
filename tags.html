@@ -5,14 +5,14 @@ motto: 物以类聚。
 ---
 
         <div class="post">
-            <div class="tag">
+            <div class="tag-name">
                 <ul>
 {% for tag in site.tags %}
                     <li><a href="#{{ tag[0] }}">{{ tag[0] }}</a></li>
 {% endfor %}
                 </ul>
             </div>
-            <div>
+            <div class="tag-list">
 {% for tag in site.tags %}
                 <h2 id="{{ tag[0] }}">{{ tag[0] }} ({{ tag[1].size }})</h2>
                 <ul>

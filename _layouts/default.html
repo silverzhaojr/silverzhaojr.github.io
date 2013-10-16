@@ -15,7 +15,7 @@
 </head>
 
 <body>
-<div id="content">
+<div>
     <div id="head">
         <div id="logo">
             <div class="blogname"><a href="/">{{ site.blog_name }}</a></div>
@@ -30,9 +30,11 @@
         </div>
     </div>
 
-    <div id="contain">
+    <div id="main">
         <div id="begin">{% if page.motto %}{{ page.motto }}{% else %}{{ site.default_motto }}{% endif %}</div>
+        <div id="contain">
 {{ content }}
+        </div>
         <div id="foot">
             <p>{{ site.copyright }}, theme modified from <a href="http://www.zhanxin.info/jekyll/2012-11-14-the-one-theme.html">theOne</a>.</p>
             <p>Powered by <a href="http://jekyllrb.com">Jekyll</a> and <a href="https://github.com">GitHub</a>.</p>
