@@ -43,7 +43,6 @@
 .post-title {
     font-size: 1.5em;
     background: #f8f8f8;
-    border-bottom: 1px solid #e8e8e8;
     border-radius: 2em;
     margin: 0 -0.6em;
     padding: 0.5em 0 0.5em 1em;
@@ -51,24 +50,20 @@
 }
 
 @media screen and (max-width:960px) {
-#head {
-    border-bottom: 2px dashed #d8d8d8;
-}
-#logo {
-    border-bottom: 1px dotted #d8d8d8;
-}
-#logo .blogname {
-}
 #logo .blogdesc {
     margin: 0.5em 0 0.5em 2em;
+}
+#nav {
+    border-top: 1px dotted #d8d8d8;
+    border-bottom: 2px dashed #d8d8d8;
 }
 #nav ul {
     text-align: right;
     padding: 0;
 }
 #nav li {
-    font-size: 1em;
     display: inline;
+    font-size: 1em;
     margin-right: 0.5em;
     padding: 0.2em;
     border-top: 3px solid #d8d8d8;
@@ -76,9 +71,9 @@
     border-radius: 1em;
 }
 #begin {
+    color: #5d5d5d;
     font-size: 0.8em;
     font-style: normal;
-    color: gray;
 }
 .post {
     margin: 1em 0.5em;
@@ -96,22 +91,25 @@
     margin: 0.5em 0 0.5em 1em;
 }
 #nav li {
-    font-size: 1em;
     margin-right: 0;
-    border: none;
-    border-top: 3px solid #d8d8d8;
+    border-left: none;
     border-radius: 0;
+}
+.post {
+    margin: 1em 0;
+    padding: 0 0.5em 1em 0.5em;
 }
 }
 
-/* default.html */
-#logo a {
-    color: #555;
+a {
+    color: #5d5d5d;
     text-decoration: none;
 }
-#logo a:hover {
-    color: #888;
+a:hover {
+    color: #a0a0a0;
 }
+
+/* default.html */
 #logo .blogname {
     font-family: "FangSong", sans-serif;
     font-size: 3em;
@@ -130,22 +128,20 @@
     font-family: "YouYuan", sans-serif;
 }
 #nav a {
-    color: #a8a8a8;
-    text-decoration: none;
+    color: #a0a0a0;
 }
 #nav a:hover {
-    color: #555;
+    color: #5d5d5d;
     text-shadow: -2px 3px 4px #a0a0a0;
 }
 #begin {
     font-family: "FangSong", "KaiTi", serif;
     text-indent: 2em;
     text-shadow: -2px 3px 4px #a0a0a0;
-    border-bottom: 1px solid #a0a0a0;
+    border-bottom: 1px solid #d8d8d8;
     padding: 0.5em 0 0.5em 0.5em;
 }
 #foot {
-    color: #333;
     font-family: "Ubuntu", "Candara", sans-serif;
     font-size: 0.9em;
     text-align: center;
@@ -154,34 +150,23 @@
 #foot p {
     margin: 0;
 }
-#foot a {
-    color: #5d5d5d;
-    text-decoration: none;
-}
 
 /* post.html */
 .post {
-    color: #333;
     font-family: "Lucida Sans Unicode", "Arial", sans-serif;
     border: 1px solid #d8d8d8;
     border-radius: 2em;
     box-shadow: -3px 3px 20px #d8d8d8;
 }
-.post a {
+.post-title {
     color: #5d5d5d;
-    text-decoration: none;
-}
-.post a:hover {
-    color: gray;
-}
-.post-title a {
-    text-decoration: none;
+    border-bottom: 1px solid #d8d8d8;
 }
 .post-title a:hover {
-    border-bottom: 1px dotted #5d5d5d;
+    border-bottom: 1px dotted #a0a0a0;
 }
 .post-time {
-    color: #5d5d5d;
+    color: #a0a0a0;
     font-family: "Georgia", "Times New Roman", serif;
     font-style: italic;
     margin-top: 1em;
@@ -193,7 +178,7 @@
     padding: 0.5em;
 }
 .post-link a {
-    border-bottom: 1px dashed #666;
+    border-bottom: 1px dashed #a0a0a0;
 }
 .post-link .prev {
     float: left;
@@ -217,9 +202,7 @@
     display: inline;
 }
 .pagination li a {
-    color: #5d5d5d;
-    text-decoration: none;
-    border-bottom: 1px dotted #666;
+    border-bottom: 1px dotted #a0a0a0;
 }
 
 /* tags.html */
@@ -230,32 +213,32 @@
     padding: 0;
 }
 .tag-name li {
-	float: left;
     display: inline;
-    background: #e8e8e8;
+    float: left;
+    background: #f8f8f8;
     border-radius: 1em;
     margin-right: 0.5em;
     padding: 0.5em;
 }
 .tag-list {
-	clear: left;
+    clear: left;
 }
 .tag-list li {
-    list-style: square;
+    list-style: circle;
 }
 
 /* archives.html */
 .archive li {
-    list-style: circle;
+    list-style: square;
 }
 
 /* toTop.js */
 #toTop {
-    position: fixed;
     cursor: pointer;
     color: #5d5d5d;
     font-size: 3em;
     text-decoration: overline;
+    position: fixed;
     right: 30px;
     bottom: 30px;
 }
@@ -290,7 +273,7 @@
     background: #f8f8f8;
     border: 1px solid #d8d8d8;
     border-radius: 3px 3px;
-    box-shadow: 1px 1px 0 #999;
+    box-shadow: 1px 1px 0 #a0a0a0;
     margin: 0 3px;
     padding: 0.2em;
 }
@@ -306,7 +289,7 @@
     border-spacing: 0;
 }
 .post-content table th, .post table td {
-    border: 1px solid #ddd;
+    border: 1px solid #d8d8d8;
     padding: 5px 10px;
 }
 .post-content table th {
