@@ -26,7 +26,7 @@ body { font-family: "宋体"; ... }
 
 {% highlight css %}
 
-body { font-family: arial, sans-serif; }
+body { font-family: "arial", sans-serif; }
 
 {% endhighlight %}
 
@@ -36,7 +36,7 @@ body { font-family: arial, sans-serif; }
 
 然后，在火狐的字体设定中，有个选项为“允许页面选择显示字体而无需使用上面的设置”，如图：
 
-![字体设置页面][font-setting-pic]
+[![字体设置页面][font-setting-pic]][font-setting-pic]
 
 若是去掉前面的勾，则可以强制网页中的所有字体为雅黑。之前一直是这样做的，但是这个方法却失去了很多网页精心自定义的样式，不是很完美，所以也一直在寻找其他的方法。
 
@@ -44,7 +44,7 @@ body { font-family: arial, sans-serif; }
 
 在 CSS 中，有个规则称为 *@font-face*，可以定义一种字体名，而其所使用的实际字体文件可以存在服务器上，也可以是本地的字体(相当于为本地字体取了个别名)。经过一番探索后，终于找到了解决方法：
 
-在火狐的配置文件夹(默认路径为 *%APPDATA%\\Mozilla\\Firefox\\Profiles\\xxxxxxxx.default\\*)中，新建文件夹 *chrome*，然后在该文件夹中创建文件 *userContent.css*，文件编码需为 UTF-8，其内容为：
+在火狐的配置文件夹（默认路径为 *%APPDATA%\\Mozilla\\Firefox\\Profiles\\xxxxxxxx.default\\*）中，新建文件夹 *chrome*，然后在该文件夹中创建文件 *userContent.css*，文件编码需为 UTF-8，其内容为：
 
 {% highlight css %}
 
@@ -70,7 +70,8 @@ body { font-family: arial, sans-serif; }
 > 4. [CSS3 字体][ref-4]
 
 [orig-blog]: http://blog.chinaunix.net/uid-25906175-id-3691603.html
-[font-setting-pic]: http://t.williamgates.net/image-E774_52609BA0.jpg
+[font-setting-picx]: http://t.williamgates.net/image-E774_52609BA0.jpg
+[font-setting-pic]: http://ww3.sinaimg.cn/mw690/a2e690d3tw1e9pgmkj4g7j20d60bhjsi.jpg
 [ref-1]: http://dudo.org/archives/2010041823512.html
 [ref-2]: http://blog.alphatr.com/replace-simsun-yahei.html
 [ref-3]: http://mozilla.com.cn/post/49780/
