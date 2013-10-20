@@ -26,8 +26,8 @@ tags: Linux
 
 参考资料：
 
-> + [AUR: mplayer2 20130428-4][ref-1]
-> + [AUR: mplayer2-nodep-git 20121202-1][ref-2]
+> 1. [AUR: mplayer2 20130428-4][ref-1]
+> 2. [AUR: mplayer2-nodep-git 20121202-1][ref-2]
 
 [link-1]: http://pan.baidu.com/s/15lNx7
 [ref-1]: https://aur.archlinux.org/packages/mplayer2/
