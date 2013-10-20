@@ -33,7 +33,7 @@ tags: Linux
 
 [![窗口截图4][pic-4]][pic-4]
 
-------
+（完）
 
 [pic-1]: https://ucry3q.bay.livefilestore.com/y2puHAvNThU6tKfv9ZA1B2si3mjvGQ3UXwK6gL8Hi8smANtYr3Db8RHzyjXRQAUdfMHTTI2nGHrudIAaQKowdS1_uUj-J1S0MRoGyphcrnPtRc/2013-10-19.01.png?psid=1
 [pic-2]: https://ucry3q.bay.livefilestore.com/y2p1z0CYJjlkD4IrQ4BJhjHStsKGvWrHIdtMUwZvrJjssDbYCgXq908dimFYz50Nf6S1Uxw4YUJagfFrFrpqsP8GzfKB9pkGLrdy0O1_yT2Zec/2013-10-19.02.png?psid=1

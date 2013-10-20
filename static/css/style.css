@@ -250,6 +250,7 @@ a:hover {
 }
 .post-content p {
     text-indent: 2em;
+    line-height: 1.5em;
 }
 .post-content blockquote {
     font-size: 0.8em;
@@ -292,7 +293,7 @@ a:hover {
     border-radius: 3px 3px;
     box-shadow: 1px 1px 1px #a0a0a0;
     margin: 0 3px;
-    padding: 0.3em 0.2em;
+    padding: 0.2em;
 }
 .post-content pre code {
     background: none;
