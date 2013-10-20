@@ -117,7 +117,7 @@ a:hover {
 }
 #logo .blogdesc {
     color: #5d5d5d;
-    font-family: "KaiTi", sans-serif;
+    font-family: "KaiTi", "AR PL UKai CN", sans-serif;
 }
 #logo .rss {
     height: 1em;
@@ -135,7 +135,7 @@ a:hover {
     text-shadow: -2px 3px 4px #a0a0a0;
 }
 #begin {
-    font-family: "FangSong", "KaiTi", serif;
+    font-family: "FangSong", "KaiTi", "AR PL UKai CN", serif;
     text-indent: 2em;
     text-shadow: -2px 3px 4px #a0a0a0;
     border-bottom: 1px solid #d8d8d8;
@@ -168,7 +168,7 @@ a:hover {
 }
 .post-time {
     color: #a0a0a0;
-    font-family: "Georgia", "Times New Roman", serif;
+    font-family: "Georgia", "Times New Roman", "URW Palladio L", serif;
     font-style: italic;
     margin-top: 1em;
 }
@@ -287,7 +287,7 @@ a:hover {
     overflow: auto;
 }
 .post-content code {
-    font-family: "Monaco", "Lucida Console", "Consolas", "Droid Sans Mono", monospace;
+    font-family: "Monaco", "Lucida Console", "Consolas", "DejaVu Sans Mono", "Droid Sans Mono", monospace;
     background: #f8f8f8;
     border: 1px solid #d8d8d8;
     border-radius: 3px 3px;
