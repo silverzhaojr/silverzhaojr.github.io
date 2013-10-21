@@ -14,7 +14,7 @@ tags: Linux
 
 <!-- more -->
 
-[![网易首页截图1][pic-20131021.01]][pic-20131021.01]
+[![网易首页截图1][pic-1]][pic-1]
 
 呵，好雪！白茫茫的一片，有诗为证：
 
@@ -45,7 +45,7 @@ Midori 原本有个库依赖为 `libwebkit`，但是最近更新后，变为了 
 > 1. [Midori: A lightweight, fast, and free web browser][ref-1]
 > 2. [The original ARM has been closed on 2013-08-18][ref-2]
 
-[pic-20131021.01]: https://ucry3q.bay.livefilestore.com/y2pc9i_6hSdrxYwJtQ8eyIKy9ryAXjaqGS88vJEnUDDFAAvBhGXc5H9ZKei6fuJk2DRKRAogtThYXl1GLqWkZU80T8YHZMQwu9oMTNDrQQehto/2013-10-21.01.png?psid=1
+[pic-1]: https://ucry3q.bay.livefilestore.com/y2pc9i_6hSdrxYwJtQ8eyIKy9ryAXjaqGS88vJEnUDDFAAvBhGXc5H9ZKei6fuJk2DRKRAogtThYXl1GLqWkZU80T8YHZMQwu9oMTNDrQQehto/2013-10-21.01.png?psid=1
 
 [ref-1]: http://midori-browser.org/
 [ref-2]: https://bbs.archlinux.org/viewtopic.php?pid=1313360#p1313360

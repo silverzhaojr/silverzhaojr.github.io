@@ -36,7 +36,7 @@ body { font-family: "arial", sans-serif; }
 
 然后，在火狐的字体设定中，有个选项为“允许页面选择显示字体而无需使用上面的设置”，如图：
 
-[![字体设置页面][pic-20130515.01]][pic-20130515.01]
+[![字体设置页面][pic-1]][pic-1]
 
 若是去掉前面的勾，则可以强制网页中的所有字体为雅黑。之前一直是这样做的，但是这个方法却失去了很多网页精心自定义的样式，不是很完美，所以也一直在寻找其他的方法。
 
@@ -73,7 +73,7 @@ body { font-family: "arial", sans-serif; }
 
 [orig-blog]: http://blog.chinaunix.net/uid-25906175-id-3691603.html
 
-[pic-20130515.01]: https://ucry3q.bay.livefilestore.com/y2pZmqjd0N1CvHvBGaFG1wqwOzQsT0rXS0aVaktM-7elh0ZY-YsCMCaCadua1Dt3uNmrcQcWC8NeiGXzrMhKVR0ynVsU2XNW0AIelhZfyUh7Mk/2013-05-15.01.png?psid=1
+[pic-1]: https://ucry3q.bay.livefilestore.com/y2pZmqjd0N1CvHvBGaFG1wqwOzQsT0rXS0aVaktM-7elh0ZY-YsCMCaCadua1Dt3uNmrcQcWC8NeiGXzrMhKVR0ynVsU2XNW0AIelhZfyUh7Mk/2013-05-15.01.png?psid=1
 
 [ref-1]: http://dudo.org/archives/2010041823512.html
 [ref-2]: http://blog.alphatr.com/replace-simsun-yahei.html

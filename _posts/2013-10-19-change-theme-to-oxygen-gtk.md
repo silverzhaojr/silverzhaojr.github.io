@@ -25,17 +25,17 @@ tags: Linux
 
 好了，现在统一都用 Oxygen-gtk 主题，看上去感觉好多了。放几张图欣赏一下：
 
-[![窗口截图1][pic-20131019.01]][pic-20131019.01]
+[![窗口截图1][pic-1]][pic-1]
 
-[![窗口截图2][pic-20131019.02]][pic-20131019.02]
+[![窗口截图2][pic-2]][pic-2]
 
-[![窗口截图3][pic-20131019.03]][pic-20131019.03]
+[![窗口截图3][pic-3]][pic-3]
 
-[![窗口截图4][pic-20131019.04]][pic-20131019.04]
+[![窗口截图4][pic-4]][pic-4]
 
 （完）
 
-[pic-20131019.01]: https://ucry3q.bay.livefilestore.com/y2puHAvNThU6tKfv9ZA1B2si3mjvGQ3UXwK6gL8Hi8smANtYr3Db8RHzyjXRQAUdfMHTTI2nGHrudIAaQKowdS1_uUj-J1S0MRoGyphcrnPtRc/2013-10-19.01.png?psid=1
-[pic-20131019.02]: https://ucry3q.bay.livefilestore.com/y2p1z0CYJjlkD4IrQ4BJhjHStsKGvWrHIdtMUwZvrJjssDbYCgXq908dimFYz50Nf6S1Uxw4YUJagfFrFrpqsP8GzfKB9pkGLrdy0O1_yT2Zec/2013-10-19.02.png?psid=1
-[pic-20131019.03]: https://ucry3q.bay.livefilestore.com/y2pjFv0ID12Hh-mLObVJRUqUpEXO5sSvfXq87wfyiTBz7DklHAqSxlFvm6QFFq-nQsQYDg6tGXtz9vdQ69zvvRSylFx_Wb5sctJaXekblGtHf0/2013-10-19.03.png?psid=1
-[pic-20131019.04]: https://ucry3q.bay.livefilestore.com/y2p4Ah1Xk9t1BwhDZL2m2ZO0uNO14N_UcSZtw_7dcypdZuQzMtu9cDtjXvp40TDYeCs9StQ9QvPwssxOqhTrD6Xc2zNwj4WN8zoYPOKRJSablY/2013-10-19.04.png?psid=1
+[pic-1]: https://ucry3q.bay.livefilestore.com/y2puHAvNThU6tKfv9ZA1B2si3mjvGQ3UXwK6gL8Hi8smANtYr3Db8RHzyjXRQAUdfMHTTI2nGHrudIAaQKowdS1_uUj-J1S0MRoGyphcrnPtRc/2013-10-19.01.png?psid=1
+[pic-2]: https://ucry3q.bay.livefilestore.com/y2p1z0CYJjlkD4IrQ4BJhjHStsKGvWrHIdtMUwZvrJjssDbYCgXq908dimFYz50Nf6S1Uxw4YUJagfFrFrpqsP8GzfKB9pkGLrdy0O1_yT2Zec/2013-10-19.02.png?psid=1
+[pic-3]: https://ucry3q.bay.livefilestore.com/y2pjFv0ID12Hh-mLObVJRUqUpEXO5sSvfXq87wfyiTBz7DklHAqSxlFvm6QFFq-nQsQYDg6tGXtz9vdQ69zvvRSylFx_Wb5sctJaXekblGtHf0/2013-10-19.03.png?psid=1
+[pic-4]: https://ucry3q.bay.livefilestore.com/y2p4Ah1Xk9t1BwhDZL2m2ZO0uNO14N_UcSZtw_7dcypdZuQzMtu9cDtjXvp40TDYeCs9StQ9QvPwssxOqhTrD6Xc2zNwj4WN8zoYPOKRJSablY/2013-10-19.04.png?psid=1
