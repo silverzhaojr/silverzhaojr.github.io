@@ -173,9 +173,8 @@ a:hover {
     margin-top: 1em;
 }
 .post-link {
-    height: 1em;
     border-top: 1px dotted #d8d8d8;
-    margin: 2em 0;
+    margin-bottom: 1em;
     padding: 0.5em;
 }
 .post-link a {
@@ -187,12 +186,15 @@ a:hover {
 .post-link .next {
     float: right;
 }
-.post-comment {
+.disqus-button {
     cursor: pointer;
     background: #f8f8f8;
     border: 1px solid #d8d8d8;
     border-radius: 0.5em;
     padding: 0.2em;
+}
+.clearfix {
+    clear: both;
 }
 
 /* index.html */
@@ -220,9 +222,6 @@ a:hover {
     border-radius: 1em;
     margin-right: 0.5em;
     padding: 0.5em;
-}
-.tag-list {
-    clear: left;
 }
 .tag-list li {
     list-style: circle;

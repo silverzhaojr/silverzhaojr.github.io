@@ -15,11 +15,12 @@ layout: default
 {% if page.next %}
                 <a class="next" href="{{ page.next.url }}">{{ page.next.title | truncatewords:5 }}&nbsp;&raquo;</a>
 {% endif %}
+                <div class="clearfix"></div>
             </div>
 
             <div id="disqus_thread"></div>
             <div id="disqus_loader">
-                <span class="post-comment" onclick="load_disqus()">评论</span>
+                <span class="disqus-button" onclick="load_disqus()">评论</span>
                 <script type="text/javascript">
                 function load_disqus()
                 {
