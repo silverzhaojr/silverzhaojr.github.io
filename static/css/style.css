@@ -167,7 +167,7 @@ a:hover {
     border-bottom: 1px dotted #a0a0a0;
 }
 .post-time {
-    color: #a0a0a0;
+    color: #5d5d5d;
     font-family: "Georgia", "Times New Roman", "URW Palladio L", serif;
     font-style: italic;
     margin-top: 1em;
@@ -265,15 +265,21 @@ a:hover {
 .post-content blockquote ol {
     padding: 0 1em;
 }
+.post-content a {
+	color: #a0a0a0;
+}
+.post-content a:hover {
+	color: #5d5d5d;
+}
 .post-content em {
     color: #5d5d5d;
+    font-family: monospace;
     font-style: normal;
     border-bottom: 2px dotted #a0a0a0;
 }
 .post-content img {
-    display: block;
     border: 0 none;
-    max-width: 100%;
+    max-width: 90%;
     margin: auto;
 }
 .post-content pre {
