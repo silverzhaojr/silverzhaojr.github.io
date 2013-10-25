@@ -2,7 +2,7 @@
 
 layout: post
 title: Midori 浏览器中文显示空白的问题（下）
-motto: 人生天地之间，若白驹过隙，忽然而已。——《庄子·知北游》
+motto: 浮游不知所求，猖狂不知所往，游者鞅掌，以观无妄。——《庄子·在宥》
 date: 2013-10-23 10:30
 tags: Linux
 
@@ -34,7 +34,7 @@ tags: Linux
 
 {% highlight css %}
 
-font-family: "Baskerville", "文泉驿微米黑", serif;    
+font-family: "Baskerville", "文泉驿微米黑", serif;
 
 {% endhighlight %}
 

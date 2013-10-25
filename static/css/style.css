@@ -34,7 +34,6 @@
 }
 #begin {
     font-size: 1.2em;
-    font-style: italic;
 }
 .post {
     margin: 2em 2em 0 1em;
@@ -74,7 +73,6 @@
 #begin {
     color: #5d5d5d;
     font-size: 0.8em;
-    font-style: normal;
 }
 .post {
     margin: 1em 0.5em;
@@ -266,10 +264,10 @@ a:hover {
     padding: 0 1em;
 }
 .post-content a {
-	color: #a0a0a0;
+    color: #a0a0a0;
 }
 .post-content a:hover {
-	color: #5d5d5d;
+    color: #5d5d5d;
 }
 .post-content em {
     color: #5d5d5d;
