@@ -60,6 +60,31 @@ body { font-family: "arial", sans-serif; }
 
 大功告成！
 
+这里附上我所使用的文件内容：
+
+{% highlight css %}
+
+@font-face {
+	font-family: "宋体";
+	src: local("Microsoft YaHei");
+}
+@font-face {
+	font-family: "新宋体";
+	src: local("Microsoft YaHei");
+}
+
+@font-face {
+	font-family: "SimSun";
+	src: local("Microsoft YaHei");
+}
+
+@font-face {
+	font-family: "NSimSun";
+	src: local("Microsoft YaHei");
+}
+
+{% endhighlight %}
+
 （完）
 
 ------
