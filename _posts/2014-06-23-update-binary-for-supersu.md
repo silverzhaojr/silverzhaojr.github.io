@@ -36,8 +36,8 @@ ui_print "- Placing files"
 mkdir /system/bin/.ext
 cp $BIN/su /system/xbin/daemonsu
 cp $BIN/su /system/xbin/su
-if ($SUGOTE); then 
-  cp $BIN/su /system/xbin/sugote	
+if ($SUGOTE); then
+  cp $BIN/su /system/xbin/sugote
   cp $MKSH /system/xbin/sugote-mksh
 fi
 cp $BIN/su /system/bin/.ext/.su
