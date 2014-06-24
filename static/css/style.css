@@ -279,6 +279,7 @@ a:hover {
 .post-content img {
     border: 0 none;
     max-width: 90%;
+    max-height: 800px;
     margin: auto;
 }
 .post-content pre {
