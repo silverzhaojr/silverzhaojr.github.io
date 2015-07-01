@@ -1,58 +1,11 @@
 @charset "utf-8";
-@media screen and (min-width:961px) {
-.overall {
-    max-width: 1260px;
-    margin: auto;
-}
-#head {
-    width: 18em;
-    height: 98%;
-    position: fixed;
-    background: url("/static/images/bamboo01.png") bottom right no-repeat,
-                url("/static/images/bamboo02.png") top left no-repeat;
-}
-#logo {
-    margin: 1em;
-}
-#logo .blogname {
-    text-align: center;
-    border: 1px solid #d8d8d8;
-    border-radius: 8em;
-    padding: 2em 0;
-}
-#logo .blogdesc {
-    text-align: center;
-    border-bottom: 1px dotted #d8d8d8;
-}
-#nav {
-    margin-top: 3em;
-}
-#nav li {
-    font-size: 1.2em;
-    list-style: none;
-    margin: 0.5em 1.5em;
-}
-#main {
-    border-left: 1px solid #d8d8d8;
-    margin-left: 18em;
-}
-#begin {
-    font-size: 1.2em;
-}
-.post {
-    margin: 2em 2em 0 1em;
-    padding: 0 1em 2em 1em;
-}
-.post-title {
-    font-size: 1.5em;
-    background: #f8f8f8;
-    border-radius: 0.5em;
-    margin: 0 -0.6em;
-    padding: 0.5em 0 0.5em 1em;
-}
-}
 
-@media screen and (max-width:960px) {
+.overall {
+    max-width: 960px;
+    margin: auto;
+    background: url("/static/images/bamboo01.png") top right no-repeat/*,
+                url("/static/images/bamboo02.png") top left no-repeat*/;
+}
 #logo .blogdesc {
     margin: 0.5em 0 0.5em 2em;
 }
@@ -70,38 +23,17 @@
     float: right;
     font-size: 1em;
     margin-right: 0.5em;
-    padding: 0.2em;
-    border-top: 3px solid #d8d8d8;
-    border-left: 3px solid #d8d8d8;
-    border-radius: 1em;
-}
-#begin {
-    color: #5d5d5d;
-    font-size: 0.8em;
+    padding: 0 1em;
+    border-top: 5px double #d8d8d8;
 }
 .post {
     margin: 1em 0.5em;
-    padding: 0 1em 1em 1em;
+    padding: 0 0.5em 1em 1em;
 }
 .post-title {
     font-size: 1.2em;
     padding: 0.5em 0 0.5em 0.5em;
     border-bottom: 1px solid #d8d8d8;
-}
-}
-
-@media screen and (max-width:320px) {
-#logo .blogdesc {
-    margin: 0.5em 0 0.5em 1em;
-}
-#nav li {
-    border-left: none;
-    border-radius: 0;
-}
-.post {
-    margin: 1em 0;
-    padding: 0 0.5em 1em 0.5em;
-}
 }
 
 a {
@@ -138,6 +70,7 @@ a:hover {
     text-shadow: -2px 3px 4px #a0a0a0;
 }
 #begin {
+    color: #5d5d5d;
     font-family: "FangSong", "KaiTi", "AR PL UKai CN", serif;
     text-indent: 2em;
     text-shadow: -2px 3px 4px #a0a0a0;
@@ -145,7 +78,7 @@ a:hover {
     padding: 0.5em 0 0.5em 0.5em;
 }
 #foot {
-    font-family: "Ubuntu", "Candara", sans-serif;
+    font-family: "Ubuntu", "Verdana", sans-serif;
     font-size: 0.9em;
     text-align: center;
     margin-top: 1em;
@@ -159,7 +92,7 @@ a:hover {
     color: #333;
     font-family: "Lucida Sans Unicode", "Arial", sans-serif;
     border: 1px solid #d8d8d8;
-    border-radius: 1em;
+    border-radius: 0.5em;
     box-shadow: -3px 3px 20px #d8d8d8;
 }
 .post-title {
@@ -284,6 +217,7 @@ a:hover {
     border: 0 none;
     max-width: 90%;
     max-height: 800px;
+    box-shadow: 2px 2px 4px #a0a0a0;
     margin: auto;
 }
 .post-content pre {
