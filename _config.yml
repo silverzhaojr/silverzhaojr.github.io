@@ -17,4 +17,6 @@ blog_name:        凤舞清歌
 blog_desc:        起舞弄清影，何似在人间。
 default_motto:    梨花院落溶溶月，柳絮池塘淡淡风。
 
-disqus:           silverzhao
+comments:
+    duoshuo:
+        short_name: silverzhao
