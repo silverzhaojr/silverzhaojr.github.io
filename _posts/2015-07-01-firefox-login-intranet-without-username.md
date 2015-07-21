@@ -39,7 +39,7 @@ network.automatic-ntlm-auth.trusted-uris: yourdomain.com
 > 2. [MDN: Integrated Authentication][ref-2]
 > 3. [Enabling NTLM Authentication (Single Sign-On) in Firefox][ref-3]
 
-[pic-1]: https://ucry3q.dm2302.livefilestore.com/y2p_6S6HKz_RBXJthkp2ks7T-XEBr-ADhBrn8Pgk_GJ5FmhOQK4whaxQq9i0SNzx_f2RUO_5yD33rMDJzKO5w0azjLDm7HKkewIvGnCLlobz_OsVZpcR2UkFOA69S00bQutJgs7yUejZ5TCcZLhQTgj5y0XT5Or8ewZN913AytxmYw/2015-07-01.01.png?psid=1
+[pic-1]: http://7xkj3j.com1.z0.glb.clouddn.com/blog/2015-07-01.01.png
 
 [ref-1]: http://kb.mozillazine.org/Network.automatic-ntlm-auth.trusted-uris
 [ref-2]: https://developer.mozilla.org/en-US/docs/Integrated_Authentication
