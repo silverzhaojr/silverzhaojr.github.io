@@ -1,11 +1,11 @@
 ---
 
 layout: post
-title: 为Xperia Z1更换字体
+title: 为 Xperia Z1 更换字体
 motto: 鉴明则尘垢不止，止则不明也。久与贤人处，则无过。——《庄子·德充符》
 published: true
 date: 2013-12-13 17:50
-tags: 奇技淫巧
+tags: Android
 
 ---
 

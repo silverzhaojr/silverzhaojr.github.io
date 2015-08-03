@@ -4,7 +4,7 @@ layout: post
 title: 为 Mantano 阅读器增加多字体支持
 motto: 今吾朝受命而夕饮冰，我其内热与。——《庄子·人间世》
 date: 2014-02-21 10:30
-tags: 奇技淫巧
+tags: Android
 
 ---
 

@@ -5,7 +5,7 @@ title: 设定 Xperia Z1 自带的远程共享连接电脑
 motto: 夫大块载我以形，劳我以生，佚我以老，息我以死。故善生者，乃所以善死也。——《庄子·大宗师》
 published: true
 date: 2014-10-29 16:00
-tags: 奇技淫巧
+tags: Android
 
 ---
 

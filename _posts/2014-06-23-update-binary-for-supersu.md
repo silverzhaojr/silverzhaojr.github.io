@@ -5,7 +5,7 @@ title: 解决 SuperSU 提示需要更新二进制文件的问题
 motto: 夫恬淡寂漠，虚无无为，此天地之平而道德之质也。——《庄子·刻意》
 published: true
 date: 2014-06-23 15:00
-tags: 奇技淫巧
+tags: Android
 
 ---
 

@@ -4,7 +4,7 @@ layout: post
 title: 火狐打开公司内网不需要输入用户名和密码的方法
 motto: 是非之彰也，道之所以亏也。道之所以亏，爱之所以成。——《庄子·齐物论》
 date: 2015-07-01 11:30
-tags: 奇技淫巧
+tags: 不折腾
 
 ---
 
@@ -16,12 +16,8 @@ tags: 奇技淫巧
 
 在地址栏输入 `about:config`，可以搜索 `ntlm` 定位，然后修改两处：
 
-{% highlight c %}
-
-network.automatic-ntlm-auth.allow-non-fqdn: true
-network.automatic-ntlm-auth.trusted-uris: yourdomain.com
-
-{% endhighlight %}
+    network.automatic-ntlm-auth.allow-non-fqdn: true
+    network.automatic-ntlm-auth.trusted-uris: yourdomain.com
 
 如下图所示：
 
