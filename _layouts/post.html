@@ -4,7 +4,7 @@ layout: default
 
         <div class="post">
             <div class="post-title">{{ page.title }}</div>
-            <div class="post-time">{{ page.date | date_to_string }} | 分类：<a href="/tags.html#{{ page.tags }}">{{ page.tags }}</a></div>
+            <div class="post-time">{{ page.date | date: "%m/%d/%Y" }} | 分类：<a href="/tags.html#{{ page.tags }}">{{ page.tags }}</a></div>
             <div class="post-content">
 {{ content }}
             </div>

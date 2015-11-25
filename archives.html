@@ -19,7 +19,7 @@ motto: 皓首穷经。
                 <ul>
         {% endif %}
     {% endunless %}
-                    <li>{{ post.date | date: '%m-%d' }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+                    <li>{{ post.date | date: '%m/%d' }} <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 {% endfor %}
                 </ul>
             </div>
