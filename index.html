@@ -6,7 +6,7 @@ motto: 井蛙不可以语于海者，拘于虚也；夏虫不可以语于冰者�
 {% for post in paginator.posts %}
         <div class="post">
             <div class="post-title"><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></div>
-            <div class="post-time">{{ post.date | date_to_string }}</div>
+            <div class="post-time">{{ post.date | date:"%m/%d/%Y" }}</div>
             <div class="post-content">
     {% if post.content contains '<!-- more -->' %}
 {{ post.content | split: '<!-- more -->' | first }}
